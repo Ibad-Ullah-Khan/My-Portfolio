@@ -1,0 +1,12 @@
+h1{
+    font-weight:500;
+    font-size:large;
+    text-transform: uppercase;
+}
+h2{
+    text-align: center;
+}
+#Profile{
+    height: 200ox;
+    width: 200px;
+}
