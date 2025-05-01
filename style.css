@@ -3,34 +3,60 @@
     margin: 0%;
     text-decoration: none;
 }
-h1{
-    margin-top: 50px;
-    font-weight:500;
-    font-size:large;
-    text-transform: uppercase;
-}
-h2{
-    text-align: center;
-}
-#Profile{
-    height: 200ox;
-    width: 200px;
-}
-#portfolio{
+
+.header{
     background-color: black;
     position: fixed;
     top: 0%;
     width: 100%;
+    display: flex;
+    justify-content: space-around;
 }
-button{
-    background-color: #f08804;
-}
+
 #logo{
     color: #f08804;
     font-size: 25px;
     padding-left: 20px;
 }
-a{
-    margin-right: 70px;
+
+.head{
+    /* margin-right: 70px; */
     color: white;
+    padding-top: 4px;
+
+}
+
+button{
+    background-color: #f08804;
+}
+
+.heading1{
+    margin-top: 50px;
+    font-weight:500;
+    font-size:large;
+    text-transform: uppercase;
+}
+
+.heading2{
+    text-align: center;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+}
+
+#image{
+    height: 200ox;
+    width: 200px;
+}
+
+#footer{
+    background-color: black;
+    color: white;
+    width: 100%;
+
+}
+.a{
+    color: #f08804;
 }
